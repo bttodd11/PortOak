@@ -11,13 +11,25 @@ const Title = () => {
 
   return (
     <div id="title">
-      <TypeIt class="mainText"
+      <TypeIt className = "mainText"
         options={{
-          strings: ['Brian Todd', 'Test', 'Test'],
-          speed: 500,
-          lifeLike: true,
-          html: true
+          speed: 300
         }}
+        getBeforeInit={ instance => {
+          instance
+          .type("Brian Todd")
+          
+          .pause(200)
+          .type("<br>Austin, TX")
+          .type("<br>Software")
+          .delete(8)
+          .type("Web")
+          .delete(3)
+          .type("Developer")
+
+          return instance;
+        }
+      }
       />
     </div>
   )
