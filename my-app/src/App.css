@@ -1,0 +1,42 @@
+ /* Global */
+ body{
+   margin: 0;
+ }
+.hero {
+   background: url("./img/oakHero.jpg");
+   position: relative;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 110vh;
+     width: 100vw;
+     padding: 0;
+     background-color: #484848;
+     background-blend-mode: multiply;
+
+
+}
+
+
+ 
+ /* Portrait View */
+  @media (min-width: 320px) and (max-width: 450px) { 
+
+ } 
+ 
+ /* Landscape View */
+  @media (min-width: 568px) and (max-width: 812px) {
+
+ 
+ } 
+ 
+ /* Tablet View */
+  @media (min-width: 768px) and (max-width: 991px) {
+
+ 
+ } 
+ 
+ /* Desktop */
+  @media (min-width: 992px){
+
+ 
+ } 

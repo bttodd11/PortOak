@@ -1,0 +1,31 @@
+ /* Portrait View */
+ @media (min-width: 320px) and (max-width: 450px) { 
+
+} 
+
+/* Landscape View */
+ @media (min-width: 568px) and (max-width: 812px) {
+
+
+} 
+
+/* Tablet View */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+
+} 
+
+/* Desktop */
+ @media (min-width: 992px){
+
+#title{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.mainText{
+    font-size: 40px;
+    color:white;
+}
+
+
+} 
