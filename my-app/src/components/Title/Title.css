@@ -1,31 +1,51 @@
- /* Portrait View */
- @media (min-width: 320px) and (max-width: 450px) { 
-
-} 
+/* Portrait View */
+@media (min-width: 320px) and (max-width: 450px) {
+  #title {
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .mainText {
+    font-size: 28px;
+    color: white;
+    opacity: 0.4;
+  }
+}
 
 /* Landscape View */
- @media (min-width: 568px) and (max-width: 812px) {
-
-
-} 
+@media (min-width: 568px) and (max-width: 812px) {
+  #title {
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+  .mainText {
+    font-size: 28px;
+    color: white;
+    opacity: 0.4;
+  }
+}
 
 /* Tablet View */
- @media (min-width: 768px) and (max-width: 991px) {
-
-
-} 
+@media (min-width: 768px) and (max-width: 991px) {
+  #title {
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .mainText {
+    font-size: 36px;
+    color: white;
+    opacity: 0.4;
+  }
+}
 
 /* Desktop */
- @media (min-width: 992px){
-
-#title{
-    margin-top: 5%;
-    margin-left: 10%;
+@media (min-width: 992px) {
+  #title {
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .mainText {
+    font-size: 60px;
+    color: white;
+    opacity: 0.7;
+  }
 }
-.mainText{
-    font-size: 40px;
-    color:white;
-}
-
-
-} 

@@ -7,12 +7,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Connect from "./components/Connect/Connect";
 import Title from "./components/Title/Title";
-import './App.css';
+// import './App.css';
 import $ from "jquery";
-
-
-
-
 
 
 const App = () => {
@@ -44,9 +40,8 @@ const App = () => {
   
   
 
-  return (
-    
-   <body>
+  return (  
+
     <div className="hero">
     <Nav scrollTo={e => scrollTo(e)} />
       <Title />
@@ -54,8 +49,6 @@ const App = () => {
       <Projects />
       <Connect />
     </div>
-    </body>
-
 
   );
 };

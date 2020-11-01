@@ -7,6 +7,8 @@ const Nav = props => {
   return (
     <div classBar="navBar">
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand text-white" href="#">
+        </a>
         <button
           class="navbar-toggler"
           type="button"

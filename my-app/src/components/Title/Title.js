@@ -6,27 +6,22 @@ import TypeIt from "typeit-react";
 
 const Title = () => {
 
-
-
-
   return (
     <div id="title">
       <TypeIt className = "mainText"
         options={{
-          speed: 300
+          speed: 100
         }}
         getBeforeInit={ instance => {
           instance
+          .type("B.Todd", {delay: 400})
+          .delete(6)
           .type("Brian Todd")
-          
           .pause(200)
-          .type("<br>Austin, TX")
-          .type("<br>Software")
-          .delete(8)
-          .type("Web")
-          .delete(3)
-          .type("Developer")
-
+          .type("<br>South")
+          .delete(5)
+          .type("Austin, TX")
+          .type("<br>Software Developer")
           return instance;
         }
       }
