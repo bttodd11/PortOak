@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Connect from "./components/Connect/Connect";
 import Title from "./components/Title/Title";
-// import './App.css';
+import './App.css';
 import $ from "jquery";
 
 
@@ -25,7 +25,7 @@ const App = () => {
   //   $('.hero').show();
 
   // }
-  
+
   // $(document).ready(function(){
   //   $('.hero').hide();
   //   $(window).on('load', function(){
@@ -34,22 +34,21 @@ const App = () => {
   //   )
   // })
 
- 
 
-  
-  
-  
 
-  return (  
 
-    <div className="hero">
-    <Nav scrollTo={e => scrollTo(e)} />
-      <Title />
-      <About />
-      <Projects />
-      <Connect />
-    </div>
 
+
+
+  return (
+    <body>
+      <div className="hero">
+        <Nav scrollTo={e => scrollTo(e)} />
+        <Title />
+        <Projects />
+        <Connect />
+      </div>
+    </body>
   );
 };
 

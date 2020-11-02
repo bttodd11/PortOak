@@ -1,3 +1,5 @@
+ boots
+ 
  /* Portrait View */
  @media (min-width: 320px) and (max-width: 450px) { 
 
@@ -17,6 +19,13 @@
 
 /* Desktop */
  @media (min-width: 992px){
+    #projects{
+        margin-left: 25%;
+    }
+    .projectTitle{
+        text-align: center;
+        font-size: 60px;
+    }
 
 
 } 

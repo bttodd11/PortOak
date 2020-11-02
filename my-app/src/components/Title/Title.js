@@ -20,7 +20,7 @@ const Title = () => {
           .pause(200)
           .type("<br>South")
           .delete(5)
-          .type("Austin, TX")
+          .type("Austin, Texas")
           .type("<br>Software Developer")
           return instance;
         }

@@ -2,10 +2,10 @@
 @media (min-width: 320px) and (max-width: 450px) {
   #title {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   .mainText {
-    font-size: 28px;
+    font-size: 18px;
     color: white;
     opacity: 0.4;
   }
@@ -42,6 +42,8 @@
   #title {
     margin-top: 10%;
     margin-left: 15%;
+    margin-bottom: 16%;
+    height: 400px;
   }
   .mainText {
     font-size: 60px;
