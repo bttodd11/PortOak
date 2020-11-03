@@ -1,11 +1,12 @@
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) {
   #title {
-    margin-top: 30%;
+    margin-top: 35%;
     margin-left: 5%;
+    height: 450px;
   }
   .mainText {
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     opacity: 0.4;
   }
@@ -29,6 +30,7 @@
   #title {
     margin-top: 20%;
     margin-left: 10%;
+    height: 500px;
   }
   .mainText {
     font-size: 36px;
@@ -40,14 +42,13 @@
 /* Desktop */
 @media (min-width: 992px) {
   #title {
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-bottom: 16%;
+    margin-top: 15%;
+    margin-left: 10%;
     height: 400px;
   }
   .mainText {
     font-size: 60px;
     color: white;
-    opacity: 0.7;
+    opacity: 0.4;
   }
 }

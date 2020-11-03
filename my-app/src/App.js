@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import PreLoader from "./components/PreLoader/PreLoader";
 import Nav from "./components/Nav/Nav";
-import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Connect from "./components/Connect/Connect";
 import Title from "./components/Title/Title";
@@ -45,6 +45,7 @@ const App = () => {
       <div className="hero">
         <Nav scrollTo={e => scrollTo(e)} />
         <Title />
+        <Skills />
         <Projects />
         <Connect />
       </div>
