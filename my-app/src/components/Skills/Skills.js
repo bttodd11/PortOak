@@ -18,12 +18,12 @@ const Skills = () => {
 </h2>
 <Container>
   <Row>
-    <Col><Image src={JavaScript} className="icon" thumbnail /></Col>
-    <Col><Image src={ReactIcon} className="icon" thumbnail /></Col>
-    <Col><Image src={Angular} className="icon" thumbnail /></Col>
-    <Col><Image src={MySQL} className="icon" thumbnail /></Col>
-    <Col><Image src={jQuery} className="icon" thumbnail /></Col>
-    <Col><Image src={Sass} className="icon" thumbnail /></Col>
+    <Col xs={4}><Image src={JavaScript} className="icon" thumbnail /></Col>
+    <Col xs={4}><Image src={ReactIcon} className="icon" thumbnail /></Col>
+    <Col xs={4}><Image src={Angular} className="icon" thumbnail /></Col>
+    <Col xs={4}><Image src={MySQL} className="icon" thumbnail /></Col>
+    <Col xs={4}><Image src={jQuery} className="icon" thumbnail /></Col>
+    <Col xs={4}><Image src={Sass} className="icon" thumbnail /></Col>
   </Row>
 </Container>
     </div>
