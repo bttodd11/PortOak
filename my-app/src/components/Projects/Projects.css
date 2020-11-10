@@ -1,3 +1,13 @@
+.projectTitle{
+  font-family: 'Fredericka the Great', cursive;
+}
+.sidePanelHeader{
+  font-family: 'Hanuman', serif;
+}
+.sidePanelText{
+  font-family: 'Hanuman', serif;
+}
+
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) {
   .projectTitle {
@@ -121,33 +131,30 @@
   .projectTitle {
     text-align: center;
     font-size: 60px;
-  }
-  .icons {
-    height: 160px;
-    width: 491px;
-    margin: 0 auto;
+    letter-spacing: 30px;
+    margin-top: 5%;
   }
   .sidePanel {
-    height: 300px;
-    display: flex;
-    align-items: center;
+    height: 500px;
+    /* display: flex;
+    align-items: center; */
   }
   .sidePanelText {
-    width: 400px;
-    display: inline-block;
+    width: 300px;
+    font-size: 20px;
   }
   .panelImg {
-    height: 175px;
-    width: 275px;
+    height: 125px;
+    width: 200px;
     border-radius: 25px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
   }
   .sidePanelHeader {
-    /* display: inline-block; */
+    display: inline-block;
     border-left: 1px solid black;
     padding-left: 1%;
     margin-left: 2%;
-    height: 205px;
-    width: 90px;
+    /* height: 205px; */
+    font-size: 20px;
   }
 }

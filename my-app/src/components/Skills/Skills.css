@@ -1,5 +1,6 @@
 .skillsTitle {
   text-align: center;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 /* Portrait View */
@@ -11,7 +12,6 @@
   #skillsSection {
     margin: 0 auto;
     width: 100%;
-
     text-align: center;
     margin-top: 20%;
   }
@@ -34,7 +34,7 @@
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    margin-top: 30%;
+
   }
   .icon {
     height: 75px;
@@ -54,7 +54,7 @@
   #skillsSection {
     margin: 0 auto;
     width: 100%;
-    margin-top: 40%;
+    /* margin-top: 40%; */
     text-align: center;
   }
   .icon {
@@ -76,7 +76,7 @@
   #skillsSection {
     margin: 0 auto;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 20%;
     text-align: center;
   }
   .icon {

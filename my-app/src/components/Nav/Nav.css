@@ -1,4 +1,6 @@
-
+.nav-item{
+    font-family: 'Knewave', cursive;
+}
  /* Portrait View */
  @media (min-width: 320px) and (max-width: 450px) { 
     .nav-item{
