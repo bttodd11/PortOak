@@ -28,24 +28,24 @@ const Nav = props => {
             <a
               class="nav-item nav-link text-light"
               onClick={e => scrollTo(e)}
-              data-pageSection=""
+              data-pageSection="skillsSection"
             >
-              About
+              Skills
             </a>
             <a
               class="nav-item nav-link text-light"
               onClick={e => scrollTo(e)}
-              data-pageSection=""
+              data-pageSection="projectSection"
             >
               Projects
             </a>
-            <a
+            {/* <a
               class="nav-item nav-link text-light"
               onClick={e => scrollTo(e)}
-              data-pageSection=""
+              data-pageSection="footer"
             >
               Connect
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>

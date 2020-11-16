@@ -5,7 +5,6 @@ import TypeIt from "typeit-react";
 
 
 const Title = () => {
-
   return (
     <div id="title">
       <TypeIt className = "mainText"
@@ -18,8 +17,8 @@ const Title = () => {
           .delete(6)
           .type("Brian Todd")
           .pause(200)
-          .type("<br>South")
-          .delete(5)
+          .type("<br>South Aust")
+          .delete(10)
           .type("Austin, Texas")
           .type("<br>Software Developer")
           return instance;

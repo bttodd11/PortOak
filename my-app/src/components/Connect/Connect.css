@@ -51,7 +51,7 @@
 /* Desktop */
 @media (min-width: 992px) {
   #footer {
-    height: 175px;
+    height: 150px;
     margin: 0 auto;
   }
   .footerText {
