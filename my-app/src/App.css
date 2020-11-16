@@ -12,8 +12,24 @@ code {
     monospace;
 }
 
+/* Portrait View for older IPhones*/
+ @media (min-width: 315px) and (max-width: 365px) { 
+  .hero{
+    background: url("./img/oakHero.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100vw;
+    padding: 0;
+    background-color: #484848;
+    background-blend-mode: multiply;
+  }
+} 
+
 /* Portrait View */
- @media (min-width: 315px) and (max-width: 450px) { 
+@media (min-width: 365px) and (max-width: 440px) { 
   .hero{
     background: url("./img/oakHero.jpg");
     position: relative;
@@ -77,8 +93,12 @@ code {
 } 
 
 
-/* Portrait View */
-/* @media (min-width: 320px) and (max-width: 450px) { 
+/* Portrait View for Iphone 10 < */
+/* @media (min-width: 320px) and (max-width: 375px) { 
+} */
+
+/* Portrait View for Iphone 10 > */
+/* @media (min-width: 375px) and (max-width: 440px) { 
 } */
 
 /* Landscape View */

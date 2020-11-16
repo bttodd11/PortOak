@@ -1,14 +1,35 @@
-/* Portrait View */
-@media (min-width: 320px) and (max-width: 450px) {
+.mainText{
+  font-family: 'Shadows Into Light Two', cursive;
+  color: white;
+  opacity: 0.3;
+}
+
+/* Portrait View for older IPhones */
+@media (min-width: 320px) and (max-width: 365px) {
   #title {
     margin-top: 35%;
     margin-left: 5%;
     height: 470px;
   }
   .mainText {
-    font-size: 22px;
+    font-size: 32px;
     color: white;
     opacity: 0.4;
+  }
+}
+
+/* Portrait View */
+@media (min-width: 365px) and (max-width: 440px) {
+  #title {
+    margin-top: 45%;
+    margin-left: 5%;
+    height: 470px;
+  }
+  .mainText {
+    font-size: 40px;
+    color: white;
+    opacity: 0.4;
+    font-weight: bolder;
   }
 }
 

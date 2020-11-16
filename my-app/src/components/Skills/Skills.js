@@ -13,28 +13,34 @@ import Sass from './img/Sass.png';
 const Skills = () => {
   return (
     <div id="skillsSection">
-      <h2 class="skillsTitle">
+      <h2 className="skillsTitle">
         Skills
 </h2>
       <Container>
         <Row>
           <Col xs={4}><Image src={JavaScript} className="icon" thumbnail />
-            <p className="skillsLabel"> JavaScript</p>
+            <p className="skillsLabel">JavaScript</p>
+            <h6 className="skillsXp">(5 yrs) </h6>
           </Col>
           <Col xs={4}><Image src={ReactIcon} className="icon" thumbnail />
-          <p className="skillsLabel">  React </p>
+            <p className="skillsLabel">React</p>
+            <h6 className="skillsXp">(2 yrs)</h6>
           </Col>
           <Col xs={4}><Image src={Angular} className="icon" thumbnail />
-          <p className="skillsLabel"> AngularJS</p>
+            <p className="skillsLabel"> AngularJS</p>
+            <h6 className="skillsXp">(3 yrs)</h6>
           </Col>
           <Col xs={4}><Image src={MySQL} className="icon" thumbnail />
-          <p className="skillsLabel"> MySQL</p>
+            <p className="skillsLabel"> MySQL</p>
+            <h6 className="skillsXp">(3 yrs)</h6>
           </Col>
           <Col xs={4}><Image src={jQuery} className="icon" thumbnail />
-          <p className="skillsLabel"> jQuery</p>
+            <p className="skillsLabel"> jQuery</p>
+            <h6 className="skillsXp">(3 yrs)</h6>
           </Col>
           <Col xs={4}><Image src={Sass} className="icon" thumbnail />
-          <p className="skillsLabel"> Sass</p>
+            <p className="skillsLabel"> Sass</p>
+            <h6 className="skillsXp">(2 yrs)</h6>
           </Col>
         </Row>
       </Container>

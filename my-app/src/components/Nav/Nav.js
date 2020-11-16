@@ -6,11 +6,11 @@ const Nav = props => {
 
   return (
     <div classBar="navBar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand text-white" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a className="navbar-brand text-white" href="#">
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -18,22 +18,22 @@ const Nav = props => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
-          <div class="navbar-nav">
+          <div className="navbar-nav">
             <a
-              class="nav-item nav-link text-light"
+              className="nav-item nav-link text-light"
               onClick={e => scrollTo(e)}
               data-pageSection="skillsSection"
             >
               Skills
             </a>
             <a
-              class="nav-item nav-link text-light"
+              className="nav-item nav-link text-light"
               onClick={e => scrollTo(e)}
               data-pageSection="projectSection"
             >

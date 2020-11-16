@@ -13,18 +13,72 @@
 }
 .sidePanelHeader{
   font-family: 'Hanuman', serif;
+  color: black;
+  text-shadow:
+  0 0 5px #0b5727,
+  0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #0ff,
+  0 0 80px #0ff,
+  0 0 90px #0ff,
+  0 0 100px #0ff,
+  0 0 150px #0ff;
 }
 .sidePanelText{
   font-family: 'Hanuman', serif;
 }
+.langGlow{
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow:
+    0 0 5px #0b5727,
+    0 0 10px #0b5727,
+    0 0 20px #0ff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 50px #0ff;
+}
 
-/* Portrait View */
-@media (min-width: 320px) and (max-width: 450px) {
+/* Portrait View for older Iphone*/
+@media (min-width: 320px) and (max-width: 365px) {
   .projectTitle {
     text-align: center;
     font-size: 30px;
     letter-spacing: 20px;
-    margin-bottom: 15;
+    margin-bottom: 15%;
+    margin-top: 15%;
+  }
+  .panelImg {
+    height: 125px;
+    width: 200px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+  }
+  .sidePanelText {
+    margin-bottom: 15%;
+    text-align: center;
+  }
+  .sidePanelHeader {
+    text-align: center;
+    font-size: 26px;
+  }
+  .langGlow{
+    font-size: 8px;
+}
+}
+
+/* Portrait View */
+@media (min-width: 365px) and (max-width: 440px) {
+  .projectTitle {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-bottom: 15%;
     margin-top: 15%;
   }
   .panelImg {
@@ -42,7 +96,11 @@
   }
   .sidePanelHeader {
     text-align: center;
+    font-size: 26px;
   }
+  .langGlow{
+    font-size: 8px;
+}
 }
 
 /* Landscape View */
@@ -73,7 +131,7 @@
     display: inline-block;
   }
   .panelImg {
-    height: 175px;
+    height: 125px;
     width: 275px;
     border-radius: 25px;
     vertical-align: middle;
@@ -154,7 +212,7 @@
     margin: 2%;
   }
   .panelImg {
-    height: 150px;
+    height: 120px;
     width: 200px;
     border-radius: 25px;
     display: block;
@@ -169,10 +227,12 @@
     margin: 5%;
   }
   .langGlow{
-      color: #0b5727;
+      color: black;
+      font-size: 10px;
+      font-family: 'Press Start 2P', cursive;
       text-shadow:
-        0 0 5px #FFD700,
-        0 0 10px #0ff,
+        0 0 5px #0b5727,
+        0 0 10px #0b5727,
         0 0 20px #0ff,
         0 0 40px #0ff,
         0 0 80px #0ff,
@@ -180,5 +240,6 @@
         0 0 100px #0ff,
         0 0 50px #0ff;
 }
+
 
 }
