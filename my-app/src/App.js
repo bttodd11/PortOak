@@ -7,6 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Connect from "./components/Connect/Connect";
 import Title from "./components/Title/Title";
+import InfoSection from "./components/InfoSection/InfoSection";
 import './App.css';
 import $ from "jquery";
 
@@ -45,9 +46,10 @@ const App = () => {
       <div className="hero">
         <Nav scrollTo={e => scrollTo(e)} />
         <Title />
-        <Skills />
+        <InfoSection />
+        {/* <Skills />
         <Projects />
-        <Connect />
+        <Connect /> */}
       </div>
     </body>
   );

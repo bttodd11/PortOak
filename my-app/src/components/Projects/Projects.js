@@ -9,17 +9,19 @@ import './Projects.css';
 
 
 const Projects = () => {
+
   return (
     <div id="projectSection">
-      <h2 className="projectTitle">
+      <h2 id="element-1" className="projectTitle">
         Projects
       </h2>
+
       <Container fluid>
         <Row>
           <Col xs={12} s={12} md={12} lg={6}>
             <div className="sidePanel">
             <Figure>
-            <a href=""><h6 className="sidePanelHeader">Chiroptophobia</h6> </a>
+            <a href="https://github.com/bttodd11/indeedGame"><h6 className="sidePanelHeader">Chiroptophobia</h6> </a>
               <Figure.Image className="panelImg"
                 src={Batface}
               />
@@ -30,7 +32,7 @@ const Projects = () => {
             </div>
             <div className="sidePanel">
             <Figure>
-           <a href=""><h6 className="sidePanelHeader">EricTheChosen</h6></a>
+           <a href="https://github.com/bttodd11/BlessedByChosen"><h6 className="sidePanelHeader">EricTheChosen</h6></a>
               <Figure.Image className="panelImg"
                 src={Chosen}
               />
@@ -41,7 +43,7 @@ const Projects = () => {
             </div>
             <div className="sidePanel">
             <Figure>
-           <a href=""> <h6 className="sidePanelHeader">Marvel Database</h6></a>
+           <a href="https://github.com/bttodd11/marvelDatabase"> <h6 className="sidePanelHeader">Marvel Database</h6></a>
               <Figure.Image className="panelImg"
                 src={marvelIcon}
               />
@@ -54,18 +56,18 @@ const Projects = () => {
           <Col xs={12} s={12} md={12} lg={6}>
           <div className="sidePanel">
             <Figure>
-          <a href=""> <h6 className="sidePanelHeader">Gary S Ballot</h6></a>
+          <a href="https://github.com/bttodd11/HOF"> <h6 className="sidePanelHeader">Gary S Ballot</h6></a>
               <Figure.Image className="panelImg"
                 src={mlbIcon}
               />
               <Figure.Caption className="sidePanelText">
-              This is a ballot to get Gary Sheffield's name into the MLB hall of fame. With this project, I wanted to test using a database and also wanted to try out <span className="langGlow"> PHP</span>. I used <span className="langGlow">MySQL</span> and was able to push and get data from users that signed the ballot.
+              This is a ballot to get Gary Sheffield's name into the MLB hall of fame. With this project, I wanted to test using a database and also wanted to try out  <span className="langGlow"> PHP</span>. I used <span className="langGlow">MySQL</span> and was able to push and get data from users that signed the ballot.
               </Figure.Caption>
             </Figure>
             </div>
             <div className="sidePanel">
             <Figure>
-           <a href=""> <h6 className="sidePanelHeader">Skills Fund Mock</h6></a>
+           <a href="https://github.com/bttodd11/SkillsFund"> <h6 className="sidePanelHeader">Skills Fund Mock</h6></a>
               <Figure.Image className="panelImg"
                 src={sfIcon}
               />

@@ -7,16 +7,16 @@ import LinkedIn from './img/linkedin.png';
 
 const Connect = () => {
 
-  return (
-    <div id="footer">
-      <p className="footerText">This portfolio was built using ReactJS, React-Bootstrap and TypeIt.js</p>
-        <div className="socialSection">
-        <img src={Github} className="socialIcon" />
-        <img src={Instagram} className="socialIcon" />
-        <img src={LinkedIn} className="socialIcon" />
-        </div>
-    </div>
-  )
+  // return (
+  //   <div id="footer">
+  //     <p className="footerText">This portfolio was built using ReactJS, React-Bootstrap and TypeIt.js</p>
+  //       <div className="socialSection">
+  //       <img src={Github} className="socialIcon" />
+  //       <img src={Instagram} className="socialIcon" />
+  //       <img src={LinkedIn} className="socialIcon" />
+  //       </div>
+  //   </div>
+  // )
 
 }
 
