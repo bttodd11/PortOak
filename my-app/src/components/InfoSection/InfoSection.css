@@ -1,19 +1,10 @@
-/*!   
- * Template Name: Developer - Responsive Website Template for Developers
- * Version: 2.2
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: https://themes.3rdwavemedia.com/
-*/
+
 body {
     color: #434343;
-    background: #DAE3E7;
+    background: #484848;
+    background-blend-mode: multiply;
     font-size: 16px;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -35,7 +26,6 @@ body {
   a:hover {
     text-decoration: underline;
     color: #5f6b77;
-    color: #2d844e;
   }
   
   a:focus {
@@ -146,8 +136,7 @@ body {
   
   .header .profile-content .desc {
     color: #778492;
-    font-family: 'Handlee', cursive;
-    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 15px;
@@ -192,13 +181,18 @@ body {
   .section .section-inner {
     background: #fff;
     padding: 30px;
-  }
+    font-family: 'Raleway', sans-serif;
+    background-color: #C6C6C6;
+    box-shadow: 0px 0px 30px #1F612B;
+}
   
   .section .heading {
     margin-top: 0;
     margin-bottom: 30px;
     color: #545e69;
     font-size: 24px;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 10px;
   }
   
   .section .content .more-link .svg-inline--fa {
@@ -217,19 +211,25 @@ body {
   .latest .item .title {
     font-size: 18px;
     margin-top: 0;
+    letter-spacing: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+    
   }
   
   .latest .item .title .label {
     margin-left: 5px;
     font-size: 12px;
+    font-family: 'Sedgwick Ave', cursive;
   }
   
   .latest .item .title a {
     color: #778492;
+    font-family: 'Raleway', sans-serif;
   }
   
   .latest .item .title a:hover {
     color: #5f6b77;
+    font-family: 'Sedgwick Ave', cursive;
   }
   
   .latest .item .project-image:hover {
@@ -347,9 +347,14 @@ body {
   
   .experience .item .title {
     font-size: 16px;
+    font-family: 'Raleway', sans-serif;
     margin-top: 0;
     margin-bottom: 5px;
     line-height: 1.5;
+  }
+  .content ul{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
   }
   
   .experience .item .title .place {
@@ -368,32 +373,6 @@ body {
   .experience .item .title .year {
     color: #999;
     font-weight: normal;
-  }
-  
-  /* Git section */
-  .github-graph {
-    margin-bottom: 30px;
-  }
-  
-  .github-graph .js-calendar-graph-svg {
-    max-width: 100%;
-  }
-  
-  .github-graph h2 {
-    font-size: 18px;
-  }
-  
-  .ghfeed {
-    height: 500px;
-  }
-  
-  .ghfeed,
-  .ghfeed *,
-  .ghfeed *:before,
-  .ghfeed *:after {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
   }
   
   /* Info Section */
@@ -428,17 +407,19 @@ body {
   }
   
   .skills .skillset .level-title {
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     margin-top: 0;
     margin-bottom: 10;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 2px;
   }
   
   .skills .skillset .level-title .level-label {
-    color: #ccd1d6;
-    font-size: 14px;
+    color: #1F612B;
+    font-size: 10px;
     font-weight: 400;
-    font-family: "Lato", arial, sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
     position: absolute;
     right: 0;
     top: 0;
@@ -448,60 +429,18 @@ body {
     height: 15px;
     background: #e8e8e8;
   }
-  .infoSection{
-    margin-top: 20%;
-  }
   
   .skills .skillset .level-bar-inner {
     height: 15px;
-    background: #66cb8c;
+    background-color: #FFD700;
+    box-shadow: 0px 0px 10px #FFD700;
+
   }
   
   .skills .svg-inline--fa {
     margin-right: 3px;
     position: relative;
     top: -1px;
-  }
-  
-  /* Testimonials section */
-  .testimonials .item {
-    margin-bottom: 30px;
-  }
-  
-  .testimonials .item:last-child {
-    margin-bottom: 0;
-  }
-  
-  .testimonials .item .quote {
-    color: #666;
-    font-size: 16px;
-    border-left: 5px solid #9fdeb7;
-    padding: 5px 15px;
-    margin-bottom: 15px;
-  }
-  
-  .testimonials .item .quote p {
-    margin-bottom: 0;
-  }
-  
-  .testimonials .item .quote .svg-inline--fa {
-    color: #79d19a;
-    margin-right: 15px;
-  }
-  
-  .testimonials .item .source {
-    font-size: 14px;
-    padding-left: 20px;
-    font-weight: 500;
-  }
-  
-  .testimonials .item .source .name {
-    color: #939ea9;
-    font-weight: 600;
-  }
-  
-  .testimonials .item .source .title {
-    color: #999;
   }
   
   /* Education section */
@@ -514,68 +453,22 @@ body {
   }
   
   .education .item .title {
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 0;
+    font-family: 'Raleway', sans-serif;
   }
   
   .education .item .university {
-    font-family: "Lato", arial, sans-serif;
-    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
     color: #999;
     font-weight: 600;
     padding-left: 25px;
   }
   
   .education .item .university .year {
-    color: #b0b7bf;
+    color: #666666;
     font-weight: 500;
-  }
-  
-  /* Language Section */
-  .languages .item {
-    margin-bottom: 15px;
-  }
-  
-  .languages .item .title {
-    color: #778492;
-  }
-  
-  .languages .item .level {
-    color: #999;
-  }
-  
-  .languages .item:last-child {
-    margin-bottom: 0;
-  }
-  
-  .languages .item .svg-inline--fa {
-    color: #79d19a;
-  }
-  
-  /* Blog Section */
-  .blog .item {
-    margin-bottom: 30px;
-  }
-  
-  .blog .item .title {
-    font-size: 18px;
-    line-height: 1.3;
-  }
-  
-  .blog .item .title a {
-    color: #778492;
-  }
-  
-  .blog .item .title a:hover {
-    color: #5f6b77;
-  }
-  
-  .blog .item p {
-    margin-bottom: 5px;
-  }
-  
-  .blog .item:last-child {
-    margin-bottom: 0;
   }
   
   /* List section */
@@ -647,6 +540,89 @@ body {
   .footer .fa-heart {
     color: #fb866a;
   }
+
+  /* Portrait View for Iphone 10 < */
+ @media (min-width: 320px) and (max-width: 375px) { 
+  .content{
+    font-size: 12px;
+    text-align: center;
+  }
+  .content li {
+   text-align: left;
+   font-size: 10px;
+  }
+  .experience .item .title {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  .section .heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #545e69;
+    font-size: 14px;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 8px;
+    text-align: center;
+  }
+  .latest .item .title {
+    font-size: 12px;
+    margin-top: 0;
+    letter-spacing: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+  }
+  .skills .skillset .level-title .level-label {
+display: none;
+  }
+
+} 
+
+/* Portrait View for Iphone 10 >  */
+@media (min-width: 375px) and (max-width: 440px) { 
+  .content{
+    font-size: 12px;
+    text-align: center;
+  }
+  .content li {
+    text-align: left;
+    font-size: 10px;
+   }
+   .experience .item .title {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  .project-image {
+   height: 150px;
+   width: 225px;
+
+  }
+  .section .heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #545e69;
+    font-size: 20px;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  .latest .item .title {
+    font-size: 12px;
+    margin-top: 0;
+    letter-spacing: 5px;
+    font-family: 'Sedgwick Ave', cursive;
+  }
+  .skills .skillset .level-title .level-label {
+display: none;
+  }
+
+} 
+
+
   
   @media (max-width: 767.98px) {
     .header {

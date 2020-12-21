@@ -1,7 +1,31 @@
 import React    from "react";
+import ReactDOM from 'react-dom'
 import './InfoSection.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap}  from '@fortawesome/free-solid-svg-icons';
+import BatFace from './img/batFace.png';
+import Chosen from './img/ETC.png';
+import Marvel from './img/Marvel.png';
+import Siemens from './img/siemens.png';
+import SkillsFund from './img/skills.png';
+import Mlb from './img/MLB.png';
+import $ from 'jquery';
+
+
 
 const InfoSection = () => {
+    $(window).on('load', function() {
+        $('.level-bar-inner').each(function() {
+            var itemWidth = $(this).data('level');
+            $(this).animate({
+                width: itemWidth
+            }, 1000);
+        });
+    });
+    
+  
   return (
 <div class="infoSection">
 <div class="container sections-wrapper">
@@ -13,23 +37,21 @@ const InfoSection = () => {
                         <div class="content">
                             <p>A passionate and experienced developer that loves every aspect of web development. 
                                 Fast and eager learner and a reliable team member that will stand behind his work. 
-                                I am very skilled with HTML, Sass, CSS, jQuery Bootstrap and JavaScript. I have over five years of experience with each of these technologies, and I’m eager to learn even more languages and frameworks to sharpen my skills. In addition to web technologies, I’m skilled in frameworks such as AngularJS, PHP and ReactJS. </p>
+                                I am very skilled with HTML, Sass, CSS, jQuery, Bootstrap and JavaScript. I have over five years of experience with each of these technologies, and I’m eager to learn even more languages and frameworks to sharpen my skills. In addition to web technologies, I’m skilled in frameworks such as AngularJS and ReactJS. </p>
                         </div>
                     </div>       
                 </section>
                <section class="latest section">
                     <div class="section-inner">
                         <h2 class="heading">Latest Projects</h2>
-                        <div class="content">    
-                                               
+                        <div class="content">                   
                             <div class="item featured text-center">
-                        
                                 <div class="featured-image">
                                     <a href="https://new.siemens.com/us/en/products/buildingtechnologies/home.html" >
-                                    <img class="img-fluid project-image" style={{height: '100px'}} src="assets/images/projects/siemens.jpg" alt="project name" />
+                                    <img class="img-fluid project-image" style={{height: '100px'}} src={Siemens} alt="project name" />
                                     </a>
                                 </div>
-                                <div class="desc text-left">                                   
+                                <div class="desc text-center">                                   
                                     <p>Currently, I am working on implementing feature requests and updates to our web configuration tool. This tool is used to configure our client's HVAC/Lighting setpoints and schedules.
                                         This tool was built in AngularJS.
                                     </p>
@@ -38,7 +60,7 @@ const InfoSection = () => {
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://github.com/bttodd11/SkillsFund">
-                                <img class="img-fluid project-image" src="assets/images/projects/skills.png" alt="project name" />
+                                <img class="img-fluid project-image" src={SkillsFund} alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/bttodd11/SkillsFund">Skills Fund Mock Up</a></h3>
@@ -48,7 +70,7 @@ const InfoSection = () => {
                             
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://github.com/bttodd11/Ballot">
-                                <img class="img-fluid project-image" src="assets/images/projects/MLB.png" alt="project name" />
+                                <img class="img-fluid project-image" src={Mlb} alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/bttodd11/Ballot">Gary Sheffield MLB Ballot</a></h3>
@@ -58,7 +80,7 @@ const InfoSection = () => {
 
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://github.com/bttodd11/EricTheChosen">
-                                <img class="img-fluid project-image" src="assets/images/projects/ETC.png" alt="project name" />
+                                <img class="img-fluid project-image" src={Chosen} alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/bttodd11/EricTheChosen">EricTheChosen</a></h3>
@@ -67,7 +89,7 @@ const InfoSection = () => {
                             </div>
                             <div class="item row">
                                 <a class="col-md-4 col-12">
-                                <img class="img-fluid project-image" src="assets/images/projects/Marvel.png" alt="project name" />
+                                <img class="img-fluid project-image" src={Marvel} alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://bttodd11.github.io/marvelDatabase/">Marvel Database</a></h3>
@@ -76,10 +98,10 @@ const InfoSection = () => {
                             </div>
                             <div class="item row">
                                 <a class="col-md-4 col-12">
-                                <img class="img-fluid project-image" src="assets/images/projects/batFace.png" alt="project name" />
+                                <img class="img-fluid project-image" src={BatFace} alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://rocky-carrot-d1st1d3bpo.glitch.me/">Mobile Game( Chiroptophobia )</a></h3>
+                                    <h3 class="title"><a href="https://rocky-carrot-d1st1d3bpo.glitch.me/">Chiroptophobia</a></h3>
                                     <p class="mb-2">This is a falling dot game I made in Glitch for a interview process with a company. This game was made with VanillaJS and CSS.</p>
                                 </div>                         
                             </div>  
@@ -129,8 +151,8 @@ const InfoSection = () => {
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Austin, Texas</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a>bttodd@icloud.com</a></li>
+                                <li><span class="">Location:</span> Austin, Texas</li>
+                                <li><span class="">Email:</span><a> bttodd@icloud.com</a></li>
                             </ul>
                         </div>
                     </div>             
@@ -173,12 +195,12 @@ const InfoSection = () => {
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Computer Information Systems</h3>
-                                <h4 class="university">University of Mary Hardin - Baylor <span class="year">(2009-2013)</span></h4>
+                                <h3 class="title"><FontAwesomeIcon icon={faGraduationCap} /> BA Computer Information Systems</h3>
+                                <h4 class="university"> University of Mary Hardin - Baylor</h4>
                             </div>
                             <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Full-Stack Developer Certificate</h3>
-                                <h4 class="university">Austin Coding Academy <span class="year">(2016-2017)</span></h4>
+                                <h3 class="title"><FontAwesomeIcon icon={faGraduationCap} /><></> Full-Stack Developer Certificate</h3>
+                                <h4 class="university">Austin Coding Academy </h4>
                             </div>
                         </div>
                     </div>

@@ -4,12 +4,14 @@
   opacity: 0.3;
 }
 
+
+
 /* Portrait View for older IPhones */
 @media (min-width: 320px) and (max-width: 365px) {
   #title {
-    margin-top: 35%;
     margin-left: 5%;
     height: 470px;
+    padding-top: 25%;
   }
   .mainText {
     font-size: 32px;
@@ -21,22 +23,22 @@
 /* Portrait View */
 @media (min-width: 365px) and (max-width: 440px) {
   #title {
-    margin-top: 45%;
     margin-left: 5%;
     height: 470px;
+    padding-top: 50%;
   }
   .mainText {
     font-size: 40px;
     color: white;
     opacity: 0.4;
     font-weight: bolder;
+
   }
 }
 
 /* Landscape View */
 @media (min-width: 568px) and (max-width: 812px) {
   #title {
-    margin-top: 20%;
     margin-left: 15%;
   }
   .mainText {
@@ -49,9 +51,9 @@
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
   #title {
-    margin-top: 20%;
     margin-left: 10%;
     height: 300px;
+    padding-top: 20%;
   }
   .mainText {
     font-size: 36px;
@@ -63,8 +65,8 @@
 /* Desktop */
 @media (min-width: 992px) {
   #title {
-    margin-top: 5%;
     margin-left: 10%;
+    padding-top: 10%;
     height: 400px;
   }
   .mainText {
@@ -74,4 +76,5 @@
     color: white;
     opacity: 0.3;
   }
+
 }

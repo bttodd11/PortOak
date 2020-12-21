@@ -44,13 +44,13 @@ const App = () => {
   return (
     <body>
       <div className="hero">
-        <Nav scrollTo={e => scrollTo(e)} />
+        {/* <Nav scrollTo={e => scrollTo(e)} /> */}
         <Title />
+      </div>
         <InfoSection />
         {/* <Skills />
         <Projects />
         <Connect /> */}
-      </div>
     </body>
   );
 };
