@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/PortOak/static/css/main.d3216123.chunk.css",
+    "main.js": "/PortOak/static/js/main.87b66c7d.chunk.js",
+    "main.js.map": "/PortOak/static/js/main.87b66c7d.chunk.js.map",
+    "runtime-main.js": "/PortOak/static/js/runtime-main.64d4729f.js",
+    "runtime-main.js.map": "/PortOak/static/js/runtime-main.64d4729f.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/PortOak/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.85e7aa09.chunk.js": "/PortOak/static/js/2.85e7aa09.chunk.js",
+    "static/js/2.85e7aa09.chunk.js.map": "/PortOak/static/js/2.85e7aa09.chunk.js.map",
+    "index.html": "/PortOak/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/PortOak/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.d3216123.chunk.css.map": "/PortOak/static/css/main.d3216123.chunk.css.map",
+    "static/js/2.85e7aa09.chunk.js.LICENSE.txt": "/PortOak/static/js/2.85e7aa09.chunk.js.LICENSE.txt",
+    "static/media/AngularJS.6e2edb03.png": "/PortOak/static/media/AngularJS.6e2edb03.png",
+    "static/media/ETC.6aaaefa9.png": "/PortOak/static/media/ETC.6aaaefa9.png",
+    "static/media/MLB.6030ba30.png": "/PortOak/static/media/MLB.6030ba30.png",
+    "static/media/Marvel.536a877b.png": "/PortOak/static/media/Marvel.536a877b.png",
+    "static/media/MySQL.cf1a78a5.png": "/PortOak/static/media/MySQL.cf1a78a5.png",
+    "static/media/React.3adc4d15.svg": "/PortOak/static/media/React.3adc4d15.svg",
+    "static/media/Sass.ff09e95a.png": "/PortOak/static/media/Sass.ff09e95a.png",
+    "static/media/batFace.dc98a8ba.png": "/PortOak/static/media/batFace.dc98a8ba.png",
+    "static/media/batIcon.dc98a8ba.png": "/PortOak/static/media/batIcon.dc98a8ba.png",
+    "static/media/chosenIcon.6aaaefa9.png": "/PortOak/static/media/chosenIcon.6aaaefa9.png",
+    "static/media/instagram.a2d67165.png": "/PortOak/static/media/instagram.a2d67165.png",
+    "static/media/jquery.a11c6e5f.png": "/PortOak/static/media/jquery.a11c6e5f.png",
+    "static/media/linkedin.45403bbe.png": "/PortOak/static/media/linkedin.45403bbe.png",
+    "static/media/marvelIcon.536a877b.png": "/PortOak/static/media/marvelIcon.536a877b.png",
+    "static/media/mlbIcon.6030ba30.png": "/PortOak/static/media/mlbIcon.6030ba30.png",
+    "static/media/App.css": "/PortOak/static/media/oakHero.9f715c65.jpg",
+    "static/media/sfIcon.66949ed8.png": "/PortOak/static/media/sfIcon.66949ed8.png",
+    "static/media/siemens.c5d66fc2.png": "/PortOak/static/media/siemens.c5d66fc2.png",
+    "static/media/skills.66949ed8.png": "/PortOak/static/media/skills.66949ed8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64d4729f.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.85e7aa09.chunk.js",
+    "static/css/main.d3216123.chunk.css",
+    "static/js/main.87b66c7d.chunk.js"
+  ]
+}
