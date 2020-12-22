@@ -6,11 +6,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.hero{
+  background: url("./img/oakHero.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100vw;
+    padding: 0;
+    background-color: #484848;
+    background-blend-mode: multiply;
+}
+
 
 /* Portrait View for older IPhones*/
  @media (min-width: 315px) and (max-width: 365px) { 

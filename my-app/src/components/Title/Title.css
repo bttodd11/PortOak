@@ -3,6 +3,16 @@
   color: white;
   opacity: 0.3;
 }
+#title {
+  margin-left: 5%;
+  height: 470px;
+  padding-top: 25%;
+}
+.mainText {
+  font-size: 32px;
+  color: white;
+  opacity: 0.4;
+}
 
 
 

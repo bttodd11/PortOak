@@ -62,7 +62,7 @@ const InfoSection = () => {
                                 <a class="col-md-4 col-12" href="https://github.com/bttodd11/SkillsFund">
                                 <img class="img-fluid project-image" src={SkillsFund} alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc text-md-left col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/bttodd11/SkillsFund">Skills Fund Mock Up</a></h3>
                                     <p class="mb-2">This is a mockup site that I created for the company during an interview. The company wanted a strategically designed site to get customer to sign up for their mailing list. I utilized bootstrap and jQuery for this site.</p>
                                 </div>                        
@@ -72,7 +72,7 @@ const InfoSection = () => {
                                 <a class="col-md-4 col-12" href="https://github.com/bttodd11/Ballot">
                                 <img class="img-fluid project-image" src={Mlb} alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc text-md-left col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/bttodd11/Ballot">Gary Sheffield MLB Ballot</a></h3>
                                     <p class="mb-2">This is a ballot to get Gary Sheffield's name into the MLB hall of fame. With this project, I wanted to test using a database and also wanted to try out PHP. I used MySQL and was able to push and get data from users that signed the ballot.</p>
                                 </div>                        
@@ -82,16 +82,16 @@ const InfoSection = () => {
                                 <a class="col-md-4 col-12" href="https://github.com/bttodd11/EricTheChosen">
                                 <img class="img-fluid project-image" src={Chosen} alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc text-md-left col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/bttodd11/EricTheChosen">EricTheChosen</a></h3>
-                                    <p class="mb-2">This is a site that I made for hip-hop artist EricTheChosen. I was given free reign to build the site with just being given content to use. I used JavaScript, Bootstrap and Sass on this site.</p>
+                                    <p class="mb-2 ">This is a site that I made for hip-hop artist EricTheChosen. I was given free reign to build the site with just being given content to use. I used JavaScript, Bootstrap and Sass on this site.</p>
                                 </div>                        
                             </div>
                             <div class="item row">
                                 <a class="col-md-4 col-12">
                                 <img class="img-fluid project-image" src={Marvel} alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc text-md-left col-md-8 col-12">
                                     <h3 class="title"><a href="https://bttodd11.github.io/marvelDatabase/">Marvel Database</a></h3>
                                     <p class="mb-2">This is a database I am working on using the Marvel developer API. It will take an input and return the Marvel character that is selected.</p>
                                 </div>                       
@@ -100,7 +100,7 @@ const InfoSection = () => {
                                 <a class="col-md-4 col-12">
                                 <img class="img-fluid project-image" src={BatFace} alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc text-md-left col-md-8 col-12">
                                     <h3 class="title"><a href="https://rocky-carrot-d1st1d3bpo.glitch.me/">Chiroptophobia</a></h3>
                                     <p class="mb-2">This is a falling dot game I made in Glitch for a interview process with a company. This game was made with VanillaJS and CSS.</p>
                                 </div>                         

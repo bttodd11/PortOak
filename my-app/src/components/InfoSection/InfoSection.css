@@ -213,7 +213,6 @@ body {
     margin-top: 0;
     letter-spacing: 5px;
     font-family: 'Sedgwick Ave', cursive;
-    
   }
   
   .latest .item .title .label {
@@ -598,8 +597,9 @@ display: none;
   }
   .project-image {
    height: 150px;
-   width: 225px;
-
+   width: 200px;
+   margin-bottom: 5%;
+   border-radius: 5%;
   }
   .section .heading {
     margin-top: 0;
@@ -640,9 +640,23 @@ display: none;
       margin-top: 30px;
       float: none !important;
     }
+
     .project-image {
-      margin-bottom: 15px;
-    }
+      height: 150px;
+      width: 200px;
+      margin-bottom: 5%;
+      border-radius: 5%;
+     }
+     .section .heading {
+       margin-top: 0;
+       margin-bottom: 30px;
+       color: #545e69;
+       font-size: 20px;
+       font-family: 'Sedgwick Ave', cursive;
+       letter-spacing: 10px;
+       text-align: center;
+     }
+
   }
   
   @media (min-width: 1400px) {
