@@ -353,7 +353,11 @@ body {
   }
   .content ul{
     font-family: 'Raleway', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .content li {
+    margin: 0 0 15px 0;
+    width: 90%;
   }
   
   .experience .item .title .place {
