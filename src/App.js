@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import PreLoader from "./components/PreLoader/PreLoader";
-import Nav from "./components/Nav/Nav";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
-import Connect from "./components/Connect/Connect";
 import Title from "./components/Title/Title";
 import InfoSection from "./components/InfoSection/InfoSection";
 import './App.css';
@@ -48,9 +43,6 @@ const App = () => {
         <Title />
       </div>
         <InfoSection />
-        {/* <Skills />
-        <Projects />
-        <Connect /> */}
     </body>
   );
 };
