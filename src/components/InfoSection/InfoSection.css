@@ -353,10 +353,10 @@ body {
   }
   .content ul{
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
   }
   .content li {
-    margin: 0 0 15px 0;
+    margin: 0 0 8px 0;
     width: 90%;
   }
   
