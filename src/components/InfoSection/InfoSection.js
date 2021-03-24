@@ -11,6 +11,7 @@ import Marvel from './img/Marvel.png';
 import Siemens from './img/siemens.png';
 import SkillsFund from './img/skills.png';
 import Mlb from './img/MLB.png';
+import MovieDatabase from './img/moviePng.png';
 import $ from 'jquery';
 
 
@@ -105,6 +106,16 @@ const InfoSection = () => {
                                     <p class="mb-2">This is a falling dot game I made in Glitch for a interview process with a company. This game was made with VanillaJS and CSS.</p>
                                 </div>                         
                             </div>  
+                            <div class="item row">
+                                <a class="col-md-4 col-12">
+                                <img class="img-fluid project-image" style={{height: "250px"}} src={MovieDatabase} alt="project name" />
+                                </a>
+                                <div class="desc text-md-left col-md-8 col-12">
+                                    <h3 class="title"><a href="https://bttodd11.github.io/MovieDatabase/">Movie Database</a></h3>
+                                    <p class="mb-2">This is a movie database that returns the movie that is entered information and also a New York Times article of the movie if one is available. This 
+                                    was built using React, the OMDB API and the New York Times API.</p>
+                                </div>                         
+                            </div> 
                         </div>
                     </div>              
                 </section>
