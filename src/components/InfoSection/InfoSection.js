@@ -108,7 +108,7 @@ const InfoSection = () => {
                             </div>  
                             <div class="item row">
                                 <a class="col-md-4 col-12">
-                                <img class="img-fluid project-image" style={{height: "250px"}} src={MovieDatabase} alt="project name" />
+                                <img class="img-fluid project-image" style={{height: "175px"}} src={MovieDatabase} alt="project name" />
                                 </a>
                                 <div class="desc text-md-left col-md-8 col-12">
                                     <h3 class="title"><a href="https://bttodd11.github.io/MovieDatabase/">Movie Database</a></h3>
