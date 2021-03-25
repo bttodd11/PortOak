@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28029bea.chunk.css",
+    "main.js": "/static/js/main.97d4b77f.chunk.js",
+    "main.js.map": "/static/js/main.97d4b77f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.230ce140.js",
+    "runtime-main.js.map": "/static/js/runtime-main.230ce140.js.map",
+    "static/css/2.2a86faee.chunk.css": "/static/css/2.2a86faee.chunk.css",
+    "static/js/2.744dc6e6.chunk.js": "/static/js/2.744dc6e6.chunk.js",
+    "static/js/2.744dc6e6.chunk.js.map": "/static/js/2.744dc6e6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.25c635cc079a9a22d8e5aa91ac0eccba.js": "/precache-manifest.25c635cc079a9a22d8e5aa91ac0eccba.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.28029bea.chunk.css.map": "/static/css/main.28029bea.chunk.css.map",
+    "static/media/ETC.png": "/static/media/ETC.53875fee.png",
+    "static/media/MLB.png": "/static/media/MLB.60c37890.png",
+    "static/media/Marvel.png": "/static/media/Marvel.78f339d1.png",
+    "static/media/batFace.png": "/static/media/batFace.f955c2e1.png",
+    "static/media/App.css": "/static/media/oakHero.ffd2bf6e.jpg",
+    "static/media/siemens.png": "/static/media/siemens.be6e1de1.png",
+    "static/media/skills.png": "/static/media/skills.2d34c83c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.230ce140.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.744dc6e6.chunk.js",
+    "static/css/main.28029bea.chunk.css",
+    "static/js/main.97d4b77f.chunk.js"
+  ]
+}
