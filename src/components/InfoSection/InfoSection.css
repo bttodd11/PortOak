@@ -25,7 +25,7 @@ body {
   
   a:hover {
     text-decoration: underline;
-    color: #5f6b77;
+    color: #545e69
   }
   
   a:focus {
@@ -227,8 +227,7 @@ body {
   }
   
   .latest .item .title a:hover {
-    color: #5f6b77;
-    font-family: 'Sedgwick Ave', cursive;
+    color: #545e69
   }
   
   .latest .item .project-image:hover {
